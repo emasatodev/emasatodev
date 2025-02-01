@@ -4,136 +4,65 @@ title: Javascript
 image: '/assets/img/27.webp'
 ---
 
-A paragraph looks like this — dolor amet cray stumptown fingerstache neutra food truck seitan poke cardigan waistcoat VHS snackwave celiac hella. Godard seitan shoreditch flexitarian next level trust fund man braid vegan listicle keytar bitters. Disrupt cray fashion axe unicorn lomo shaman poke glossier keffiyeh snackwave austin tattooed seitan hexagon lo-fi. Lumbersexual irony vaporware, butcher shaman church-key iceland.
+Aprender **JavaScript** es el primer paso para convertirte en un desarrollador web competente. En esta página, encontrarás una serie de cursos y recursos que cubren desde los conceptos básicos hasta técnicas avanzadas. Explora cada sección para profundizar en los distintos aspectos de este lenguaje esencial en el desarrollo web.
 
 ***
 
-## Headings by default:
+# Fundamentos de Javascript
 
-# H1 Default styles for headings
-## H2 Default styles for headings
-### H3 Default styles for headings
-#### H4 Default styles for headings
-##### H5 Default styles for headings
-###### H6 Default styles for headings
-
-***
-
-## Lists
-
-#### Ordered list example:
-
-1. Poutine drinking vinegar bitters.
-2. Coloring book distillery fanny pack.
-3. Venmo biodiesel gentrify enamel pin meditation.
-4. Jean shorts shaman listicle pickled portland.
-5. Salvia mumblecore brunch iPhone migas.
+1. [Fundamentos de Javascript](#fundamentos-de-javascript)
+2. [Manipulación del DOM](#manipulación-del-dom)
+3. [Patrones de diseño en Javascript](#patrones-de-diseño-en-javascript)
+4. [Estructuras de datos en Javascript](#estructuras-de-datos-en-javascript)
+5. [Clean code y buenas prácticas con Javascript](#clean-code-y-buenas-prácticas-con-javascript)
+6. [NPM Gestión de Paquetes y dependencias en Javascript](#npm-gestión-de-paquetes-y-dependencias-en-javascript)
 
 ***
 
-#### Unordered list example:
+## Fundamentos de Javascript
 
-* Bitters semiotics vice thundercats synth.
-* Literally cred narwhal bitters wayfarers.
-* Kale chips chartreuse paleo tbh street art marfa.
-* Mlkshk polaroid sriracha brooklyn.
-* Pug you probably haven't heard of them air plant man bun.
+* [Curso Fundamentos de Javascript](/fundamentos-de-javascript)
+* [Cheatsheet fundamentos de javascript](#cheatsheet-fundamentos-de-javascript)
+* [Ejercicios de fundamentos de javascript](#ejercicios-de-fundamentos-de-javascript)
 
-***
 
-## Table
+## Manipulación del DOM
 
-<div class="table-container">
-  <table>
-    <tr><th>Header 1</th><th>Header 2</th><th>Header 3</th><th>Header 4</th><th>Header 5</th></tr>
-    <tr><td>Row:1 Cell:1</td><td>Row:1 Cell:2</td><td>Row:1 Cell:3</td><td>Row:1 Cell:4</td><td>Row:1 Cell:5</td></tr>
-    <tr><td>Row:2 Cell:1</td><td>Row:2 Cell:2</td><td>Row:2 Cell:3</td><td>Row:2 Cell:4</td><td>Row:2 Cell:5</td></tr>
-    <tr><td>Row:3 Cell:1</td><td>Row:3 Cell:2</td><td>Row:3 Cell:3</td><td>Row:3 Cell:4</td><td>Row:3 Cell:5</td></tr>
-    <tr><td>Row:4 Cell:1</td><td>Row:4 Cell:2</td><td>Row:4 Cell:3</td><td>Row:4 Cell:4</td><td>Row:4 Cell:5</td></tr>
-    <tr><td>Row:5 Cell:1</td><td>Row:5 Cell:2</td><td>Row:5 Cell:3</td><td>Row:5 Cell:4</td><td>Row:5 Cell:5</td></tr>
-    <tr><td>Row:6 Cell:1</td><td>Row:6 Cell:2</td><td>Row:6 Cell:3</td><td>Row:6 Cell:4</td><td>Row:6 Cell:5</td></tr>
-  </table>
-</div>
+* [Curso Manipulación del DOM](#curso-manipulación-del-dom)
+* [Cheatsheet Manipulación del DOM](#cheatsheet-manipulación-del-dom)
+* [Ejercicios de Manipulación del DOM](#ejercicios-de-manipulación-del-dom)
 
 ***
 
-## Quotes
+## Patrones de diseño en Javascript
 
-#### A quote looks like this:
-
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
->
-> <cite>George Bernard Shaw</cite>
+* [Curso Patrones de diseño en Javascript](#curso-patrones-de-diseño-en-javascript)
+* [Cheatsheet Patrones de diseño en Javascript](#cheatsheet-patrones-de-diseño-en-javascript)
+* [Ejercicios Patrones de diseño en Javascript](#ejercicios-patrones-de-diseño-en-javascript)
 
 ***
 
+## Estructuras de datos en Javascript
 
-
-## Syntax Highlighter
-
-{% highlight css %}
-body {
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-  background-color: #1c2021;
-}
-
-li {
-  width: 200px;
-  min-height: 250px;
-  border: 1px solid #000;
-  display: inline-block;
-  vertical-align: top;
-  margin: 5px;
-}
-{% endhighlight %}
-
-{% highlight js %}
-  $('.top').click(function () {
-    $('html, body').stop().animate({ scrollTop: 0 }, 'slow', 'swing');
-  });
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > $(window).height()) {
-      $('.top').addClass("top-active");
-    } else {
-      $('.top').removeClass("top-active");
-    };
-  });
-{% endhighlight %}
+* [Curso Estructuras de datos en Javascript](#curso-estructuras-de-datos-en-javascript)
+* [Cheatsheet Estructuras de datos en Javascript](#cheatsheet-estructuras-de-datos-en-javascript)
+* [Ejercicios Estructuras de datos en Javascript](#ejercicios-estructuras-de-datos-en-javascript)
 
 ***
 
-## Images
+## Clean code y buenas prácticas con Javascript
 
-<div class="gallery-box">
-  <div class="gallery">
-     <img loading="lazy"  width="100%" height="100%" src="/assets/img/02.webp">
-     <img loading="lazy"  width="100%" height="100%" src="/assets/img/10.webp">
-     <img loading="lazy"  width="100%" height="100%" src="/assets/img/11.webp">
-     <img loading="lazy"  width="100%" height="100%" src="/assets/img/12.webp">
-     <img loading="lazy"  width="100%" height="100%" src="/assets/img/14.webp">
-     <img loading="lazy"  width="100%" height="100%" src="/assets/img/27.webp">
-  </div>
-  <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
-</div>
-
-![Caffe]({{site.baseurl}}/assets/img/16.webp)
-*Photo by [Matthew Henry](https://unsplash.com/photos/T-G9PVLOfOY) on Unsplash*
+* [Curso Clean code y buenas prácticas con Javascript](#curso-clean-code-y-buenas-prácticas-con-javascript)
+* [Cheatsheet Clean code y buenas prácticas con Javascript](#cheatsheet-clean-code-y-buenas-prácticas-con-javascript)
+* [Ejercicios Clean code y buenas prácticas con Javascript](#ejercicios-clean-code-y-buenas-prácticas-con-javascript)
 
 ***
 
-## Youtube Embed
+## NPM Gestión de Paquetes y dependencias en Javascript
 
-<p><iframe src="https://www.youtube.com/embed/QyQ85DEVpbc" frameborder="0" allowfullscreen></iframe></p>
-
-***
-
-## Vimeo Embed
-
-<p><iframe src="https://player.vimeo.com/video/107654760" width="640" height="360" frameborder="0" allowfullscreen></iframe></p>
+* [Curso NPM Gestión de Paquetes y dependencias en Javascript](#curso-npm-gestión-de-paquetes-y-dependencias-en-javascript)
+* [Cheatsheet NPM Gestión de Paquetes y dependencias en Javascript](#cheatsheet-npm-gestión-de-paquetes-y-dependencias-en-javascript)
+* [Ejercicios NPM Gestión de Paquetes y dependencias en Javascript](#ejercicios-npm-gestión-de-paquetes-y-dependencias-en-javascript)
 
 ***
+
