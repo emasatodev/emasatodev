@@ -1,6 +1,6 @@
 ---
 layout: page  
-title: Fundamentos de Javascript  
+title: Javascript Inicial: Preguntas y respuestas
 image: '/assets/img/27.webp'  
 ---
 
@@ -10,8 +10,8 @@ JavaScript es uno de los lenguajes más utilizados en el desarrollo web moderno.
 
 Este curso incluye *cheatsheets* para tener los conceptos clave a la mano, además de ejercicios prácticos para cada módulo:
 
-* [Cheatsheet Fundamentos de Javascript](https://github.com/emasatodev/javascript-cheatsheet/tree/main/01-fundamentos-javascript)
-* [Ejercicios de Fundamentos de Javascript](https://github.com/emasatodev/javascript-ejercicios/tree/main/01-fundamentos-javascript)
+* [Cheatsheet Fundamentos de Javascript](https://github.com/emasatodev/javascript-cheatsheet/tree/main/01-javascript-inicial)
+* [Ejercicios de Fundamentos de Javascript](https://github.com/emasatodev/javascript-ejercicios/tree/main/01-javascript-inicial)
 
 ***
 
@@ -107,11 +107,11 @@ Aprenderás a configurar tu entorno de desarrollo en Mac usando Visual Studio Co
 ### Cheatsheet Fundamentos de Javascript
 
 Accede a esta guía rápida con los conceptos esenciales del curso.  
-[Cheatsheet Fundamentos de Javascript](https://github.com/emasatodev/javascript-cheatsheet/tree/main/01-fundamentos-javascript)
+[Cheatsheet Fundamentos de Javascript](https://github.com/emasatodev/javascript-cheatsheet/tree/main/01-javascript-inicial)
 
 ***
 
 ### Ejercicios de Fundamentos de Javascript
 
 Refuerza tus conocimientos con estos ejercicios prácticos diseñados para cada sección del curso.  
-[Ejercicios de Fundamentos de Javascript](https://github.com/emasatodev/javascript-ejercicios/tree/main/01-fundamentos-javascript)
+[Ejercicios de Fundamentos de Javascript](https://github.com/emasatodev/javascript-ejercicios/tree/main/01-javascript-inicial)

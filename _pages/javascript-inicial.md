@@ -1,6 +1,6 @@
 ---
 layout: page  
-title: Fundamentos de Javascript  
+title: Javascript Inicial
 image: '/assets/img/27.webp'  
 ---
 
@@ -10,14 +10,14 @@ JavaScript es uno de los lenguajes más utilizados en el desarrollo web moderno.
 
 Este curso incluye *cheatsheets* para tener los conceptos clave a la mano, además de ejercicios prácticos para cada módulo:
 
-* [Cheatsheet Fundamentos de Javascript](https://github.com/emasatodev/javascript-cheatsheet/tree/main/01-fundamentos-javascript)
-* [Ejercicios de Fundamentos de Javascript](https://github.com/emasatodev/javascript-ejercicios/tree/main/01-fundamentos-javascript)
+* [Cheatsheet Fundamentos de Javascript](https://github.com/emasatodev/javascript-cheatsheet/tree/main/01-javascript-inicial)
+* [Ejercicios de Fundamentos de Javascript](https://github.com/emasatodev/javascript-ejercicios/tree/main/01-javascript-inicial)
 
 ***
 
-# Fundamentos de Javascript
+# Javascript Inicial
 
-## Introducción a JavaScript
+#### Introducción a JavaScript
 
 1. [¿Por qué aprender JavaScript?](#por-que-aprender-javascript)  
 2. [¡Hola Mundo! en Mac](#hola-mundo-en-mac)  
@@ -29,7 +29,7 @@ Este curso incluye *cheatsheets* para tener los conceptos clave a la mano, adem�
 8. [Conversión de tipos: Type Casting y Coerción](#conversion-de-tipos-type-casting-y-coercion)  
 9. [Transformación de datos: Conversión explícita e implícita](#conversion-de-tipos-explicita-e-implicita)  
 
-## Estructuras de Control y Lógica
+#### Estructuras de Control y Lógica
 
 10. [Comparación de valores en JavaScript](#operadores-de-comparacion)  
 11. [Uso de operadores lógicos](#operadores-logicos)  
@@ -92,6 +92,51 @@ Este curso incluye *cheatsheets* para tener los conceptos clave a la mano, adem�
 
 ***
 
+# Manipulación del DOM
+
+#### Intro Manipulación del DOM
+1. [¿Qué es DOM y Window Object?](#que-es-dom-y-window-object)  
+2. [Explorando Nodos del DOM](#explorando-nodos-del-dom)  
+
+### Seleccionando y Accesando a Elementos del DOM
+
+3. [Consultando el DOM con getElementById y querySelector](#consultando-el-dom-con-getelementbyid-y-queryselector)  
+4. [Navegación efectiva entre nodos](#navegacion-efectiva-entre-nodos)  
+
+### Manipulando Elementos del DOM
+
+5. [Modificando atributos y propiedades](#modificando-atributos-y-propiedades)  
+6. [Modificando texto en HTML](#modificando-texto-en-html)  
+7. [Modificando estilos en HTML](#modificando-estilos-en-html)  
+8. [Modificando la visibilidad de elementos HTML](#modificando-la-visibilidad-de-elementos-html)  
+9. [Creación de elementos con HTML Strings e insertAdjacentElement()](#creacion-de-elementos-con-html-strings-e-insertadjacentelement)  
+10. [Agregando elementos con innerHTML e insertAdjacentHTML()](#agregando-elementos-con-innerhtml-e-insertadjacenthtml)  
+11. [Creación de elementos con createElement()](#creacion-de-elementos-con-createelement)  
+12. [Remover elementos con remove() y removeChild()](#remover-elementos-con-remove-y-removechild)  
+13. [Clonación y reemplazo de elementos con cloneNode y replaceChild](#clonacion-y-reemplazo-de-elementos-con-clonenode-y-replacechild)  
+
+### Manipulando Eventos en el DOM
+
+14. [Entendiendo eventos y tipos: Burbuja, Captura y Propagación](#entendiendo-eventos-y-tipos-burbuja-captura-y-propagacion)  
+15. [Agregar y eliminar escuchadores de eventos o Event Listeners](#agregar-y-eliminar-escuchadores-de-eventos)  
+16. [El objeto evento o eventObject](#el-objeto-evento-o-eventobject)  
+17. [Manejo de entradas de formulario y validación](#manejo-de-entradas-de-formulario-y-validacion)  
+18. [Delegación de eventos y prevención de comportamiento predeterminado](#delegacion-de-eventos-y-prevencion-de-comportamiento-predeterminado)  
+
+### Creando un Administrador de Tareas
+
+19. [Añadir tareas desde un formulario](#anadir-tareas-desde-un-formulario)  
+20. [Eliminar y editar tareas del DOM](#eliminar-y-editar-tareas-del-dom)  
+21. [Almacenamiento y carga de datos en localStorage](#almacenamiento-y-carga-de-datos-en-localstorage)  
+22. [Eliminar y editar tareas del almacenamiento local](#eliminar-y-editar-tareas-del-almacenamiento-local)  
+23. [Inspeccionando y solucionando errores en el código](#inspeccionando-y-solucionando-errores-en-el-codigo)  
+24. [Personalizando la interfaz del administrador de tareas](#personalizando-la-interfaz-del-administrador-de-tareas)  
+
+***
+
+
+# Javascript Inicial
+
 ## ¿Por qué aprender JavaScript?
 
 JavaScript es el lenguaje esencial para el desarrollo web. Más allá de las páginas web, permite crear servidores, aplicaciones móviles, juegos y más. Su versatilidad y la alta demanda en el mercado laboral lo convierten en una habilidad clave para cualquier desarrollador.
@@ -107,11 +152,11 @@ Aprenderás a configurar tu entorno de desarrollo en Mac usando Visual Studio Co
 ### Cheatsheet Fundamentos de Javascript
 
 Accede a esta guía rápida con los conceptos esenciales del curso.  
-[Cheatsheet Fundamentos de Javascript](https://github.com/emasatodev/javascript-cheatsheet/tree/main/01-fundamentos-javascript)
+[Cheatsheet Fundamentos de Javascript](https://github.com/emasatodev/javascript-cheatsheet/tree/main/01-javascript-inicial)
 
 ***
 
 ### Ejercicios de Fundamentos de Javascript
 
 Refuerza tus conocimientos con estos ejercicios prácticos diseñados para cada sección del curso.  
-[Ejercicios de Fundamentos de Javascript](https://github.com/emasatodev/javascript-ejercicios/tree/main/01-fundamentos-javascript)
+[Ejercicios de Fundamentos de Javascript](https://github.com/emasatodev/javascript-ejercicios/tree/main/01-javascript-inicial)

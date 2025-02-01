@@ -1,6 +1,6 @@
 ---
 layout: page  
-title: Fundamentos de Javascript  
+title: Javascript Intermedio
 image: '/assets/img/27.webp'  
 ---
 
@@ -15,84 +15,70 @@ Este curso incluye *cheatsheets* para tener los conceptos clave a la mano, adem�
 
 ***
 
-# Fundamentos de Javascript
+# Javascript Intermedio
 
-## Introducción a JavaScript
+## Estructura de datos con javascript
 
 1. [¿Por qué aprender JavaScript?](#por-que-aprender-javascript)  
 2. [¡Hola Mundo! en Mac](#hola-mundo-en-mac)  
 3. [¡Hola Mundo! en Windows](#hola-mundo-en-windows)  
-4. [Anatomía de una variable](#anatomia-de-una-variable)  
-5. [Tipos de datos en JavaScript](#tipos-de-datos-en-javascript)  
-6. [Creación de strings](#creacion-de-strings)  
-7. [Operadores aritméticos](#operadores-aritmeticos)  
-8. [Conversión de tipos: Type Casting y Coerción](#conversion-de-tipos-type-casting-y-coercion)  
-9. [Transformación de datos: Conversión explícita e implícita](#conversion-de-tipos-explicita-e-implicita)  
 
-## Estructuras de Control y Lógica
+# Patrones de diseño
 
-10. [Comparación de valores en JavaScript](#operadores-de-comparacion)  
-11. [Uso de operadores lógicos](#operadores-logicos)  
-12. [Condicionales: Estructura if](#ejecucion-condicional-if)  
-13. [Desafío práctico: Adivina el número](#ejercicio-adivina-el-numero)  
-14. [Alternativas condicionales: switch](#ejecucion-condicional-switch)  
-15. [Ciclos iterativos: for](#loop-for)  
-16. [Recorriendo colecciones con for of](#loop-for-of)  
-17. [Iterando propiedades con for in](#loop-for-in)  
-18. [Bucles condicionales: while](#loop-while)  
-19. [Ejecutando ciclos con do while](#loop-do-while)  
+#### Singleton
 
-## Funciones y el contexto *this*
+1. [Singleton 101](#singleton-101)  
+2. [Implementación de Singleton en JS](#implementacion-de-singleton-en-js)  
+3. [Contrastemos: Singleton con TS](#contrastemos-singleton-con-ts)  
+4. [Singleton: pros y contras](#singleton-pros-y-contras)  
 
-20. [Estructura de una función en JavaScript](#anatomia-de-una-funcion)  
-21. [Diferencias entre funciones y métodos](#funciones-vs-metodos)  
-22. [Funciones puras e impuras: qué son y cuándo usarlas](#funciones-puras-e-impuras)  
-23. [Arrow functions y el enlace léxico de *this*](#arrow-function-y-enlace-lexico)  
-24. [Contexto de ejecución y cadena de ámbito (*scope chain*)](#contextos-de-ejecucion-y-scope-chain)  
-25. [Entendiendo los *Closures* en JavaScript](#que-es-closure)  
-26. [Preguntas a expertos: ¿Por qué adentrarse en el desarrollo web?](#preguntas-a-desarrolladores-senior-por-que-aprender-desarrollo-web)  
+#### Factory
 
-## Manipulación de Arrays
+5. [Factory 101](#factory-101)  
+6. [Diagrama de implementación de Factory](#diagrama-de-implementacion-de-factory)  
+7. [Implementación de Factory en JS](#implementacion-de-factory-en-js)  
+8. [Contrastemos: Factory en TS](#contrastemos-factory-en-ts)  
+9. [Factory: pros y contras](#factory-pros-y-contras)  
 
-27. [Conceptos básicos sobre Arrays](#introduccion-a-arrays)  
-28. [Mutabilidad e inmutabilidad en listas](#mutabilidad-e-inmutabilidad-de-arrays)  
-29. [Agregar y eliminar elementos con push() y pop()](#modificacion-basica-del-final-con-push-y-pop)  
-30. [Mapeo e iteración de datos con map() y forEach()](#iteracion-con-map-y-foreach)  
-31. [Filtrado y reducción de colecciones: filter() y reduce()](#filtrado-y-reduccion-con-filter-y-reduce)  
-32. [Búsqueda eficiente con find() y findIndex()](#busqueda-de-elementos-con-find-y-findindex)  
-33. [Duplicando arrays con slice()](#crear-copias-con-slice)  
-34. [Spread operator: Aplicaciones prácticas](#spread-operator-casos-de-uso)  
+#### Abstract Factory
 
-## Programación Orientada a Objetos
+10. [Abstract Factory 101](#abstract-factory-101)  
+11. [Diagrama de implementación de Abstract Factory](#diagrama-de-implementacion-de-abstract-factory)  
+12. [Implementación de Abstract Factory en JS](#implementacion-de-abstract-factory-en-js)  
+13. [Contrastemos: Abstract Factory en TS](#contrastemos-abstract-factory-en-ts)  
+14. [Abstract Factory: pros y contras](#abstract-factory-pros-y-contras)  
 
-35. [Estructura de un Objeto en JavaScript](#anatomia-de-un-objeto)  
-36. [Manipulación y creación de objetos](#trabajando-con-objetos-en-javascript)  
-37. [Funciones constructoras: creando instancias](#funcion-constructora)  
-38. [Introducción al concepto de clases](#que-es-una-clase)  
-39. [Prototipos y el modelo de herencia en JavaScript](#prototipos-y-herencias)  
-40. [Herencia aplicada: ejemplos prácticos](#herencia-en-la-practica)  
-41. [Uso avanzado de prototipos](#prototipos-en-la-practica)  
-42. [El comportamiento de *this* en diferentes contextos](#this-en-javascript)  
-43. [Proyecto práctico: Construyendo una red social](#proyecto-crea-una-red-social)  
-44. [Expandiendo la red social: Parte 2](#proyecto-crea-una-red-social-parte-2)  
+#### Builder
 
-## Asincronía en JavaScript
+15. [Builder 101](#builder-101)  
+16. [Diagrama de implementación de Builder](#diagrama-de-implementacion-de-builder)  
+17. [Implementación de Builder en JS](#implementacion-de-builder-en-js)  
+18. [Contrastemos: Builder en TS](#contrastemos-builder-en-ts)  
+19. [Builder: pros y contras](#builder-pros-y-contras)  
 
-45. [¿Cómo opera el JavaScript Engine?](#como-funciona-el-javascript-engine)  
-46. [Manejo de Promesas en JavaScript](#promesas-en-javascript)  
-47. [Simplificación del código con async y await](#usando-async-y-await-en-javascript)  
-48. [Iterando asincrónicamente con for await of](#for-await-of)  
-49. [Entendiendo el funcionamiento de la web](#como-funciona-la-web)  
-50. [Protocolos de comunicación: ¿Qué es HTTP?](#como-funciona-http)  
-51. [Realizando peticiones con el método GET](#metodo-get-en-javascript)  
-52. [Enviando datos al servidor con POST](#metodo-post-en-javascript)  
-53. [Eliminando información con el método DELETE](#metodo-delete-en-javascript)  
-54. [Importancia de los identificadores en DELETE](#importancia-del-id-en-el-metodo-delete)  
-55. [Novedades en ECMAScript 6 y próximos pasos](#ecmascript-6-y-tus-siguientes-pasos)  
+#### Prototype
+
+20. [Prototype 101](#prototype-101)  
+21. [Diagrama de implementación de Prototype](#diagrama-de-implementacion-de-prototype)  
+22. [Implementación de Prototype en JS](#implementacion-de-prototype-en-js)  
+23. [Contrastemos: Prototype en TS](#contrastemos-prototype-en-ts)  
+24. [Prototype: pros y contras](#prototype-pros-y-contras)  
+
 
 ***
 
-## ¿Por qué aprender JavaScript?
+***
+
+## Clean code y buenas prácticas con javascript
+
+***
+
+## Patrones de diseño
+
+***
+
+
+## NPM: gestión de paquetes y dependencias
 
 JavaScript es el lenguaje esencial para el desarrollo web. Más allá de las páginas web, permite crear servidores, aplicaciones móviles, juegos y más. Su versatilidad y la alta demanda en el mercado laboral lo convierten en una habilidad clave para cualquier desarrollador.
 
