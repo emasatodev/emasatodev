@@ -22,8 +22,8 @@ Aprender **JavaScript** es el primer paso para convertirte en un desarrollador w
 ## Fundamentos de Javascript
 
 * [Curso Fundamentos de Javascript](/fundamentos-de-javascript)
-* [Cheatsheet fundamentos de javascript](#cheatsheet-fundamentos-de-javascript)
-* [Ejercicios de fundamentos de javascript](#ejercicios-de-fundamentos-de-javascript)
+* [Cheatsheet fundamentos de javascript](https://github.com/emasatodev/javascript-cheatsheet/tree/main/01-fundamentos-javascript)
+* [Ejercicios de fundamentos de javascript](https://github.com/emasatodev/javascript-ejercicios/tree/main/01-fundamentos-javascript)
 
 
 ## Manipulación del DOM
