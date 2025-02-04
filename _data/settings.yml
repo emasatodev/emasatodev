@@ -17,10 +17,14 @@ menu__settings:
       url: '/curriculum'
     - title: 'Links'
       url: '/links'
-    - title: 'Cursos'
-      submenu:
-        - title: 'JavaScript'
-          url: '/javascript'
+
+    - title: 'Servicios'
+      url: '/services'
+      
+  #  - title: 'Cursos'
+  #    submenu:
+  #      - title: 'JavaScript'
+  #       url: '/javascript'
 
 
 
@@ -37,15 +41,15 @@ cover__image: '/assets/img/background.svg'
 
 author:
   name: EmaSato Dev
-  title: 👋 ¡Hola Mundo! Soy EmaSato.Dev
+  title: Soluciones Tecnológicas Integrales para Empresas y Startups
   # bio: Art Director & Graphic Designer based in Australia, crafting beautiful and functional websites and mobile apps. When I’m not working, I’m probably listening to relaxing music or traveling somewhere.
   bio: "
-<b>Ingeniero de Software 🖥️</b> Experto en AEM, HTML, CSS, JS, PHP, MySQL, ReactJS. Apasionado por la tecnología y el desarrollo web 🤓"
+<b>El mejor talento tecnológico te espera para transformar tus ideas en realidad</b> "
   image: '/assets/img/600x600.webp'
   imageMobile: '/assets/img/avatar.png'
   avatar: '/assets/img/sato-avatar.webp'
-  button__text: Agenda reunión laboral 📅
-  button__text2: Descarga mi curriculum 📝
+  button__text: Comienza tu proyecto hoy
+  button__text2: Ver mis servicios
 
 
 #-------------------------------
