@@ -11,15 +11,15 @@ menu__settings:
   menu__items:
     - title: 'Proyectos'
       url: '/projects/'
-    - title: 'Blog'
-      url: '/blog/'
-    - title: 'Curriculum'
-      url: '/curriculum'
+   #  - title: 'Blog'
+    #   url: '/blog/'
+   #  - title: 'Curriculum'
+  #     url: '/curriculum'
     - title: 'Links'
       url: '/links'
 
-    - title: 'Servicios'
-      url: '/services'
+   # - title: 'Servicios'
+    #   url: '/servicios'
       
   #  - title: 'Cursos'
   #    submenu:
@@ -30,7 +30,7 @@ menu__settings:
 
 # Call to action button
 cta__button__text: Mi Curriculum
-cta__button_url: '/cv/curriculum-fabian-gonzalez.pdf'
+cta__button_url: '/servicesf'
 
 # Add global cover image (This field adds a background to the top and bottom of the site.)
 cover__image: '/assets/img/background.svg'
@@ -41,15 +41,15 @@ cover__image: '/assets/img/background.svg'
 
 author:
   name: EmaSato Dev
-  title: Soluciones Tecnológicas Integrales para Empresas y Startups
+  title: Soluciones web que impulsan negocios y mejoran experiencias <i class="bi bi-rocket-takeoff"></i>
   # bio: Art Director & Graphic Designer based in Australia, crafting beautiful and functional websites and mobile apps. When I’m not working, I’m probably listening to relaxing music or traveling somewhere.
   bio: "
-<b>El mejor talento tecnológico te espera para transformar tus ideas en realidad</b> "
+<b>Como desarrollador web senior, transformo ideas en plataformas digitales escalables, modernas y optimizadas para resultados.</b> "
   image: '/assets/img/600x600.webp'
   imageMobile: '/assets/img/avatar.png'
   avatar: '/assets/img/sato-avatar.webp'
-  button__text: Comienza tu proyecto hoy
-  button__text2: Ver mis servicios
+  # button__text: Comienza tu proyecto hoy
+  button__text2: Descubre cómo puedo ayudarte
 
 
 #-------------------------------
@@ -63,29 +63,29 @@ projects__settings:
 #-------------------------------
 # Testimonials Section
 
-testimonial__title: Mis  <span class="text-span">Clientes</span> # Add a 'text-span' class to highlight text.
+testimonial__title:  <span class="text-span">Testimonios</span> # Add a 'text-span' class to highlight text.
 
 testimonial-items:
-  - name: "Levi Robertson"
-    image: "/assets/img/testimonial-levi.jpeg"
-    designation : "Host of JAMstack Phoenix"
-    content : "The Angular Tutorial along with Fabian’s advice has completely changed my career..."
+  - name: "Jorge Rannin"
+    image: "/assets/img/testimonials-georgie.jpg"
+    designation : "Consultor Especialista Marketing"
+    content : "Trabajar con Emanuel fue un gusto, gestionó y creo asesorías para AEM Cloud para el equipo de Colgate y Palmolive"
 
   - name: "Kaeside Iwuagwu"
-    image: "/assets/img/testimonial-kaeside.jpeg"
-    designation : "Implementation Manager at WebMD"
-    content : "Fabian has a knack for breaking down complex topics and keeps learning Angular fun."
+    image: "/assets/img/testimonial2.png"
+    designation : "Product Manager"
+    content : "Trabajar con Emanuel fue una experiencia increíble para nuestra plataforma digital.  ¡Es un profesional excepcional"
 
   - name: "Matthew Knowles"
-    image: "/assets/img/testimonial-matthew.jpeg"
-    designation : "Software Engineer"
-    content : "If you are using Angular in a professional setting I can not recommend The Angular Tutorial highly enough."
+    image: "/assets/img/testimonial3.png"
+    designation: "Director de Marketing en ORTHO CLINICAL"
+    content: "Emanuel cumplió con todos los plazos y entregó un sitio web multilingüe impecable. Su atención al detalle y profesionalismo son insuperables."
 
 #-------------------------------
 # Blog Section
 
 blog__settings:
-  blog__title: Posteos recientes del <span class="text-span">Blog</span> # Add a 'text-span' class to highlight text.
+  blog__title: ¿Quieres aprender más sobre <span class="text-span"> desarrollo web?</span> # Add a 'text-span' class to highlight text.
   blog__description:
 
 

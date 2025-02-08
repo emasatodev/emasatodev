@@ -1,6 +1,6 @@
 ---
 title: Yerbanova - Página Oficial Argentina
-date: 2018-06-14 07:30:35 +0300
+date: 2018-08-14 07:30:35 +0300
 subtitle: Desarrollo Web
 description: Cliente - Yerbanova
 image: '/assets/img/portfolio/yerbanova.webp'
